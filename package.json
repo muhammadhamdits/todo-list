@@ -6,11 +6,13 @@
   "author": "muhammadhamdits <muhammadhamdi702@gmail.com>",
   "private": true,
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "deploy": "push-dir --dir=dist/spa --remote=todo-list --branch=tes"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
     "pinia": "^2.0.11",
+    "push-dir": "^0.4.1",
     "quasar": "^2.6.0",
     "socket.io-client": "^4.5.1",
     "vue": "^3.0.0",
