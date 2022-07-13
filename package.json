@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
-    "deploy": "push-dir --dir=dist/spa --remote=todo-list --branch=tes"
+    "deploy": "push-dir --dir=dist/spa --remote=todo-list --branch=build"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
